@@ -1,0 +1,24 @@
+[versions]
+agp = "8.6.0"
+kotlin = "2.0.0"
+playServicesWearable = "18.2.0"
+coreSplashscreen = "1.0.1"
+tiles = "1.5.0-alpha01"
+proto= "1.3.0-alpha01"
+watchfaceComplicationsDataSourceKtx = "1.2.1"
+
+[libraries]
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+tiles = { group = "androidx.wear.tiles", name = "tiles", version.ref = "tiles" }
+proto= { group = "androidx.wear.protolayout", name = "protolayout-proto", version.ref = "proto" }
+proto-material= { group = "androidx.wear.protolayout", name = "protolayout-material", version.ref = "proto" }
+proto-expression= { group = "androidx.wear.protolayout", name = "protolayout-expression", version.ref = "proto" }
+watchface-complications-data-source-ktx = { group = "androidx.wear.watchface", name = "watchface-complications-data-source-ktx", version.ref = "watchfaceComplicationsDataSourceKtx" }
+tiles-tooling = { group = "androidx.wear.tiles", name = "tiles-tooling", version.ref = "tiles" }
+tiles-tooling-preview = { group = "androidx.wear.tiles", name = "tiles-tooling-preview", version.ref = "tiles" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
