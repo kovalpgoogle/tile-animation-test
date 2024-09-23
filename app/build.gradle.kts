@@ -52,6 +52,5 @@ dependencies {
     implementation(libs.watchface.complications.data.source.ktx)
     debugImplementation(libs.tiles.tooling)
     implementation(libs.tiles.tooling.preview)
-    implementation ("com.google.guava:guava:33.2.1-jre")
-
+    implementation (libs.guava)
 }
