@@ -14,7 +14,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven(url = "/usr/local/google/home/kovalp/androidx-main/out/repository")
+        maven(url = uri("https://androidx.dev/snapshots/builds/12401824/artifacts/repository"))
         google()
         mavenCentral()
     }
